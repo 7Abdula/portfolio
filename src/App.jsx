@@ -1,9 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="flex justify-center items-center bg-slate-200 h-screen">
-      <h1 className="text-[50px]">Hello</h1>
+    <div className="font-poppins bg-slate-50 h-screen">
+      <Header />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
